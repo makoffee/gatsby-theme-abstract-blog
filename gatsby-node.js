@@ -90,6 +90,11 @@ exports.createSchemaCustomization = async ({ actions }) => {
       name: String
       avatar: Image
     }
+    
+     interface HomepageBlock implements Node {
+      id: ID!
+      blocktype: String
+    }
 
     interface BlogPost implements Node {
       id: ID!
@@ -101,6 +106,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       date: Date! @dateformat
       author: BlogAuthor
       category: String
+      content: [HomepageBlock]
     }
   `)
 }
