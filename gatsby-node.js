@@ -101,6 +101,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       date: Date! @dateformat
       author: BlogAuthor
       category: String
+      content: [HomepageBlock]
     }
   `)
 }
