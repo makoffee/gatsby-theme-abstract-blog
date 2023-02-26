@@ -24,6 +24,22 @@ export const query = graphql`
         gatsbyImageData
         alt
       }
+      blocks: content {
+        id
+        blocktype
+        ...HomepageHeroContent
+        ...HomepageFeatureListContent
+        ...HomepageCtaContent
+        ...HomepageLogoListContent
+        ...HomepageTestimonialListContent
+        ...HomepageBenefitListContent
+        ...HomepageStatListContent
+        ...HomepageProductListContent
+        ...RichTextBlockContent
+        ...CtaImageBlockContent
+        ...HeaderBannerContent
+        ...VideoEmbedContent
+      }
       author {
         id
         name
