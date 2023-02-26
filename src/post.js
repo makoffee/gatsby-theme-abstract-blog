@@ -35,10 +35,12 @@ export const query = graphql`
         ...HomepageBenefitListContent
         ...HomepageStatListContent
         ...HomepageProductListContent
+        ...HeaderBannerContent
         ...RichTextBlockContent
         ...CtaImageBlockContent
         ...TextBannerContent
-        ...VideoEmbedContent
+        ...EmailSignupBlockContent
+        ...VideoEmbedContent   
       }
       author {
         id
