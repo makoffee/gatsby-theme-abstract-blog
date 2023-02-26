@@ -17,22 +17,6 @@ export const query = graphql`
       title
       html
       excerpt
-      blocks: content {
-        id
-        blocktype
-        ...HomepageHeroContent
-        ...HomepageFeatureListContent
-        ...HomepageCtaContent
-        ...HomepageLogoListContent
-        ...HomepageTestimonialListContent
-        ...HomepageBenefitListContent
-        ...HomepageStatListContent
-        ...HomepageProductListContent
-        ...RichTextBlockContent
-        ...CtaImageBlockContent
-        ...HeaderBannerContent
-        ...VideoEmbedContent
-      }
       date(formatString: "MMMM Do, YYYY")
       image {
         id
