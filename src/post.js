@@ -31,6 +31,7 @@ export const query = graphql`
         ...RichTextBlockContent
         ...CtaImageBlockContent
         ...HeaderBannerContent
+        ...VideoEmbedContent
       }
       date(formatString: "MMMM Do, YYYY")
       image {
