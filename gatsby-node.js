@@ -8,7 +8,7 @@ const { getGatsbyImageResolver } = require("gatsby-plugin-image/graphql-utils")
 const defaults = {
   postPath: "src/templates/blog-post",
   indexPath: "src/templates/blog-index",
-  customQueries: false,
+  customQueries: true,
 }
 
 const pluginState = {}
