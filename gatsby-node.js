@@ -97,6 +97,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       title: String!
       html: String!
       excerpt: String!
+      excerptText: String
       image: Image
       date: Date! @dateformat
       author: BlogAuthor
