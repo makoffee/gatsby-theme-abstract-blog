@@ -16,7 +16,7 @@ export const query = graphql`
       slug
       title
       html
-      body
+      body { ... }
       excerpt
       date(formatString: "MMMM Do, YYYY")
       image {
