@@ -96,7 +96,7 @@ exports.createSchemaCustomization = async ({ actions }) => {
       slug: String!
       title: String!
       html: String!
-      body: String!
+      body: object
       excerpt: String!
       excerptText: String
       image: Image
