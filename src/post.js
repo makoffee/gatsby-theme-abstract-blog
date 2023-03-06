@@ -28,7 +28,6 @@ export const query = graphql`
       blocks: content {
         id
         blocktype
-        ...HomepageHeroContent
         ...HomepageFeatureListContent
         ...HomepageCtaContent
         ...HomepageLogoListContent
@@ -36,10 +35,7 @@ export const query = graphql`
         ...HomepageBenefitListContent
         ...AboutStatListContent
         ...HomepageProductListContent
-        ...HeaderBannerContent
-        ...RichTextBlockContent
         ...CtaImageBlockContent
-        ...TextBannerContent
         ...EmailSignupBlockContent
         ...VideoEmbedContent
         ...BlogContentContent
