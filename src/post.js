@@ -41,7 +41,8 @@ export const query = graphql`
         ...CtaImageBlockContent
         ...TextBannerContent
         ...EmailSignupBlockContent
-        ...VideoEmbedContent   
+        ...VideoEmbedContent
+        ...BlogContentContent
       }
       author {
         id
