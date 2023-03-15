@@ -28,17 +28,12 @@ export const query = graphql`
       blocks: content {
         id
         blocktype
-        ...HomepageFeatureListContent
         ...HomepageCtaContent
-        ...HomepageLogoListContent
-        ...HomepageTestimonialListContent
-        ...HomepageBenefitListContent
-        ...AboutStatListContent
-        ...HomepageProductListContent
         ...CtaImageBlockContent
         ...EmailSignupBlockContent
         ...VideoEmbedContent
         ...BlogContentContent
+        ...CodeBlockContent
       }
       author {
         id
